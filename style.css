@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4e73df, #0d3375);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background:linear-gradient(135deg, rgb(88, 87, 87),rgb(92, 37, 77));
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.design{
+    display: flexbox;
+
+
+
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+        margin: 20px auto;
+}
+    
+p{
+    text-align:left;
+}
+
+
+h1{
+    text-align: start;
+}
+h2 {
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    margin: 5px;
+    width: 130px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: rgb(144, 159, 144);
+    background-color: #303446;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.links a:hover {
+    background-color: #031a5e;
+}
+
